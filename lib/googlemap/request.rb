@@ -22,7 +22,7 @@ module Googlemap
     #
     def request(options = {})
       options[:query] = { key: config.api_key }
-      options[:query] = extract_config_option(:query) || {}
+      options[:query].merge!(extract_config_option(:query) || {})
       agent.call(http_method, api_endpoint, data, options).data
     end
 

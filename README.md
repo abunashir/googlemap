@@ -21,7 +21,7 @@ $ bundle install
 
 ## Usage
 
-Don't! This just an experimental project for a specific purpose.
+Don't use this! This is just an experimental project for a specific purpose.
 
 ### Configure
 
@@ -36,6 +36,34 @@ Googlemap.configure do |googlemap_config|
   googlemap_config.api_key = "YOUR-SECRET-API-KEY"
 end
 ```
+
+### Geocode
+
+#### Find geocode for address
+
+```ruby
+Googlemap::Geocode.find("valid_address")
+```
+
+## Testing
+
+To run the whole test suite, please use the following command, by default it
+won't make any actual API request.
+
+```ruby
+bin/rspec spec/
+```
+
+Once, you have something finalized and if you want to make sure that it is
+actually working with the actual API or not then use the following command.
+
+```ruby
+bin/rpsec --tag api_call spec/
+```
+
+Note: You will need to setup your actual API key before running the last
+command, and you can easily set it up by adding `GOOGLEMAP_API_KEY` in your
+environment variables.
 
 ## License
 

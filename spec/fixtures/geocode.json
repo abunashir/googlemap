@@ -1,0 +1,60 @@
+
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Düsseldorf",
+               "short_name" : "Düsseldorf",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Düsseldorf",
+               "short_name" : "Düsseldorf",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "North Rhine-Westphalia",
+               "short_name" : "NRW",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "Germany",
+               "short_name" : "DE",
+               "types" : [ "country", "political" ]
+            }
+         ],
+         "formatted_address" : "Düsseldorf, Germany",
+         "geometry" : {
+            "bounds" : {
+               "northeast" : {
+                  "lat" : 51.35253429999999,
+                  "lng" : 6.9399387
+               },
+               "southwest" : {
+                  "lat" : 51.1243752,
+                  "lng" : 6.6887617
+               }
+            },
+            "location" : {
+               "lat" : 51.2277411,
+               "lng" : 6.7734556
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 51.35253429999999,
+                  "lng" : 6.9399387
+               },
+               "southwest" : {
+                  "lat" : 51.1243752,
+                  "lng" : 6.6887617
+               }
+            }
+         },
+         "place_id" : "ChIJB1lG8XvJuEcRsHMqSvxgJwQ",
+         "types" : [ "locality", "political" ]
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,5 +1,6 @@
 require "googlemap/version"
 require "googlemap/request"
+require "googlemap/geocode"
 
 module Googlemap
   def self.root
