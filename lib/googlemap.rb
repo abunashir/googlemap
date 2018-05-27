@@ -1,7 +1,8 @@
 require "googlemap/version"
-
-require "googlemap/config"
+require "googlemap/request"
 
 module Googlemap
-  # Your code goes here...
+  def self.root
+    File.dirname(__dir__)
+  end
 end
